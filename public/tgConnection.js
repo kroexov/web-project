@@ -2,7 +2,7 @@ window.addEventListener('load', function () {
     let tg = window.Telegram.WebApp;
     tg.MainButton.text = "Changed Text"; //изменяем текст кнопки
     tg.expand();
-    alert(tg.initData)
+    alert(tg.initDataUnsafe.start_param)
 
 
     const DetailForm = document.getElementById('DetailForm');
@@ -11,7 +11,7 @@ window.addEventListener('load', function () {
     const KPForm = document.getElementById('KPForm');
     const mainText = document.getElementById('mainText');
     
-    mainText.innerText = tg.initData
+    mainText.innerText = tg.initDataUnsafe.start_param
 
     DetailForm.classList.toggle('active');
 
