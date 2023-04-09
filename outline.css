@@ -1,0 +1,28 @@
+.knopka {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    user-select: none;
+    background: #FA722C;
+    padding: .9em 1.5em;
+    outline: none;
+}
+
+.knopka:hover {
+    background: rgb(232, 95, 76);
+}
+
+.knopka:active,
+.active {
+    background: rgb(152, 15, 0);
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
+}
+
+.content {
+    display: grid;
+    position: relative;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+}
