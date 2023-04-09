@@ -1,7 +1,8 @@
 window.addEventListener('load', function () {
     let tg = window.Telegram.WebApp;
-    // tg.MainButton.text = "Changed Text"; //изменяем текст кнопки
-    // tg.expand();
+    tg.MainButton.text = "Changed Text"; //изменяем текст кнопки
+    tg.expand();
+    alert(tg.initData)
 
 
     const DetailForm = document.getElementById('DetailForm');
@@ -26,4 +27,4 @@ window.addEventListener('load', function () {
     KPForm.addEventListener('click', () => {
         tg.sendData("KPForm")
     });
-}
+})
