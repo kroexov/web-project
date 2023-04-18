@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import * as React from 'react'
 import {
   Box,
   Button,
@@ -15,14 +15,10 @@ import { Telegram } from '@mui/icons-material';
 import CreateDetailForm from './CreateDetailForm';
 import { IDetail } from '../models/detail';
 //import Selection from '../homepage/selection';
-import { createContext } from 'react';
 
 export interface ContactDetailFormProps {
   setCurrentOpen: (arg0: number) => void;
 }
-export const ContactDetailFormContext = createContext<
-  ContactDetailFormProps | undefined
->;
 
 function ContactDetails({ setCurrentOpen }: ContactDetailFormProps) {
   const createDetailHandler = (detail: IDetail) => {
