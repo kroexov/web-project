@@ -1,9 +1,17 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { TsxViewsModule } from 'nestjs-tsx-views';
+import { resolve } from 'path';
 
 @Module({
-  imports: [],
+  imports: [
+    TsxViewsModule.register({
+      viewsDirectory: resolve(__dirname, './forms'),
+      prettify: true,
+      forRoutes: [AppController],
+    }),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
