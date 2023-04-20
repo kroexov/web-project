@@ -1,5 +1,5 @@
 import { Box, Button, Link, Typography } from '@mui/material';
-import React, { useState } from 'react';
+import * as React from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import ProviderItem from './ProviderItem';

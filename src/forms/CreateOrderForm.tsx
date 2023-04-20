@@ -6,7 +6,7 @@ import {
   FormControlLabel,
   Checkbox,
 } from '@mui/material';
-import React, { useContext, useState } from 'react';
+import * as React from 'react';
 import {
   Controller,
   SubmitHandler,
@@ -14,7 +14,6 @@ import {
   useFormState,
 } from 'react-hook-form';
 import { SelectChangeEvent } from '@mui/material/Select';
-import './CreateOrderForm.css';
 import Typography from '@mui/material/Typography';
 import { IOrder } from '../models/order';
 //import { ModalContext } from '../../context/modalContext';
@@ -54,7 +53,7 @@ export default function CreateOrderForm({
   };
 
   return (
-    <Box className={useState() ? 'modal__content active' : 'modal__content'}>
+    <Box className={React.useState() ? 'modal__content active' : 'modal__content'}>
       <Typography
         variant="h3"
         sx={{ fontSize: '30px', color: 'black', textAlign: 'center' }}

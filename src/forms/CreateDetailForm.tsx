@@ -5,7 +5,7 @@ import {
   Typography,
   InputAdornment,
 } from '@mui/material';
-import React from 'react';
+import * as React from 'react';
 import {
   Controller,
   SubmitHandler,
@@ -13,7 +13,6 @@ import {
   useFormState,
 } from 'react-hook-form';
 import { IDetail } from '../models/detail';
-import './CreateDetailForm.css';
 
 export interface CreateDetailFormProps {
   detail?: IDetail;

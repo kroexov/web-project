@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { IProvider } from '../models/provider';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
-import React from 'react';
+import * as React from 'react';
 
 interface ProviderProps {
   provider: IProvider;

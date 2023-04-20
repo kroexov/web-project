@@ -22,13 +22,13 @@ export class AppController {
   }
 
   @Get('/provider')
-  @Render('ContactDetails')
+  @Render('ProviderForm')
   provider(): CreateProviderFormProps {
     return { setCurrentOpen: () => 2 };
   }
 
   @Get('/order')
-  @Render('CreateDetailForm')
+  @Render('CreateOrderForm')
   order(): CreateOrderFormProps {
     return {
       order: null,
