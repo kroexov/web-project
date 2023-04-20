@@ -20,7 +20,7 @@ import { IOrder } from '../models/order';
 //import { ModalContext } from '../../context/modalContext';
 
 // потом подключим UserId
-interface CreateOrderFormProps {
+export interface CreateOrderFormProps {
   order?: IOrder;
   providerId?: string;
   onCreate: (order: IOrder) => void;

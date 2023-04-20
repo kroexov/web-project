@@ -15,7 +15,7 @@ import {
 import { IDetail } from '../models/detail';
 import './CreateDetailForm.css';
 
-interface CreateDetailFormProps {
+export interface CreateDetailFormProps {
   detail?: IDetail;
   onCreate: (detail: IDetail) => void;
   setCurrentOpen: (arg0: number) => void;

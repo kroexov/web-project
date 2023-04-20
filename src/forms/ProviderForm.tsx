@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import ProviderList from '../components/ProviderList';
 import { IOrder } from '../models/order';
 
-interface CreateProviderFormProps {
+export interface CreateProviderFormProps {
   setCurrentOpen: (arg0: number) => void;
 }
 
