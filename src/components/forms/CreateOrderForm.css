@@ -1,0 +1,81 @@
+
+.create-order.request{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+}
+
+.create-order.form{
+    display: flex;
+    width: 900px;
+    flex-direction: row;
+}
+
+.create-order.left-field{
+    width: 400px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.create-order.right-field{
+    width: 400px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.create-order.steps-button-field{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin: auto 20px auto auto;
+}
+/**/
+.create-order.left-field.time-life, .create-order.left-field.checkpoints,
+.create-order.left-field.type-of-raw, .create-order.left-field.date{
+    width: 160px;
+    margin: 8px 40px 8px 0;
+}
+
+.create-order.left-field.date{
+    margin-left: 0;
+}
+
+.create-order.left-field.first-group, .create-order.left-field.second-group{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.create-order.left-field.third-group{
+    flex-direction: column;
+    width: 360px;
+    height: max-content;
+    margin: auto 40px auto auto;
+}
+
+
+.create-order.left-field.location, .create-order.left-field.cost{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.create-order.right-field.first-group, .create-order.right-field.second-group{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-top: 0;
+}
+
+.create-order.right-field.amount, .create-order.right-field.comment, .create-order.right-field.detail-name{
+    display: flex;
+    width: max-content;
+    margin: 12px 0 0 30px;
+
+}

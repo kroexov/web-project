@@ -1,0 +1,80 @@
+.provider-form.form{
+    width: 900px;
+    height: 600px;
+}
+
+.text-field.title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+
+    text-align: center;
+}
+
+.text-field.company-name{
+    color: #5252F2;
+    font-weight: 600;
+    font-size: 21.3333px;
+}
+.text-field.company-description{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    display: flex;
+    align-items: center;
+}
+.text-field.company-link{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    /* identical to box height, or 71% */
+
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+}
+
+.contacts{
+    display: flex;
+    margin: 10px 0;
+    width: max-content;
+    flex-direction: column;
+    float: left;
+}
+
+.contacts.phone-field, .contacts .address-field{
+    flex-direction: row;
+}
+
+.company-phone, .company-address{
+    padding-left: 20px;
+    width: max-content;
+    float: left;
+}
+
+.additional-info-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.continue-button{
+    float: right;
+    margin: auto 20px auto auto;
+    padding: 0;
+    display: flex;
+}
+
+.reset-button{
+    display: flex;
+
+}

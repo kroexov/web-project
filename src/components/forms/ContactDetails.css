@@ -1,0 +1,33 @@
+.ContactDetailsForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+}
+
+
+.modal__title {
+    text-align: center;
+}
+
+.checkbox__label {
+}
+
+.button__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+}
+
+.button__back {
+
+    font-size: 15px;
+}
+
+.button__next {
+    font-size: 15px;
+}

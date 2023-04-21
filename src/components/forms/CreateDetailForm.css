@@ -1,0 +1,96 @@
+.create-detail.detail{
+    display: flex;
+    flex-direction: column;
+
+    height: 600px;
+    width: 900px;
+}
+
+.create-detail.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.create-detail.left-field{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: max-content;
+}
+
+.create-detail.right-field{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: max-content;
+}
+
+.create-detail.left-field.first-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.create-detail.left-field.name-field, .create-detail.left-field.material-field{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+}
+
+.create-detail.left-field.second-group{
+    margin: 0;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    padding: 0 5px 0 0;
+}
+
+.create-detail.left-field.box{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.create-detail.left, .create-detail.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.create-detail.right-field.upload-file{
+    margin-top: 11px;
+    padding: 8.5px 14px;
+    float: right;
+    display: flex;
+    /*background-image: url("../client/build/icons/yellot_upload.png");*/
+}
+
+.create-detail.steps-button-field{
+    margin: 45px 30px 0 auto;
+    float: right;
+    width: max-content;
+    height: max-content;
+    flex-direction: row;
+    display: flex;
+}
+
+.create-detail.right-field.comment{
+    display: flex;
+    width: max-content;
+    margin: 12px 0 0 30px;
+}
+
+#to-right-button{
+    display: flex;
+    float: right;
+}
+
+#to-left-button{
+    display: flex;
+    float: right;
+}
